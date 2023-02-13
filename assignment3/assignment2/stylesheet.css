@@ -1,0 +1,45 @@
+p {
+    color:aliceblue;
+    background-color: black;
+}
+
+a {
+    color:red;
+
+}
+
+a:visited {
+    color:green;
+}
+
+a:hover {
+    color:yellow;
+}
+
+h1 {
+    color:azure;
+    background-color: midnightblue;
+}
+
+h2 {
+    color:cadetblue;
+    background-color:darkblue;
+}
+
+h3 {
+    color:aqua;
+    background-color: blueviolet;
+}
+
+h4 {
+ color:darkslategray;
+ background-color: deepskyblue;
+}
+
+.redtext {
+    color:red;
+}
+
+#boxcolor {
+    background-color: dodgerblue;
+}
