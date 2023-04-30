@@ -96,3 +96,24 @@ body {
 	line-height: 40px;
 	border-radius: 50%;
   }
+
+  #myCarousel {
+	margin-bottom: 24px;
+	border: 1px solid black;
+	width: 400px;
+	text-align: center;
+	grid-column: 5;
+  }
+  
+  #myCarousel img {
+	width: 100%;
+	text-align: center;
+  }
+  
+  #myCarousel .f-carousel__slide {
+	text-align: center;
+	padding: 24px;
+	background: #eee;
+  }
+
+  
