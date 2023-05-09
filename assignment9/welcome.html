@@ -2,7 +2,7 @@
 <html>
 <head>
 	
-	<title>Welcome to My Portfolio</title>
+	<title>Welcome</title>
 	<link rel="stylesheet" type="text/css" href="welcome.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,40 +12,37 @@
 	  rel="stylesheet"
 	  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
 	/>
-	
+
 </head>
-<body>
+
 	<header>
 		<h1>Welcome to My Portfolio</h1>
 		<nav>
 			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="welcome.html">Home</a></li>
+				<li><a href="2dfundamentals.html">2D Fundamentals</a></li>
+				<li><a href="randomsketches.html">Random Sketches</a></li>
 			</ul>
 		</nav>
 	</header>
-
+	
+	<div class="container">
+	<div class="left">
 	<section>
 	<main>
 		<h2>About Me</h2>
-
 		<p>Hello! I'm Justin, a Game Design major at ISU. I am currently working on paintings as well as drawings for my 2-D fundamentals class. Feel free to browse my portfolio!</p> 
-		<div class="social-icons">
-			<a href="#" class="icon-instagram"></a>
-		</div>
 	</main>
-
 	</section>
-	
+	</div>
+
+	<div class="right">
 	<section>
 		<h2>Top Items From My Portfolio</h2>
 		<div id="myCarousel" class="f-carousel">
-			<div class="f-carousel__slide"><img src="combustionengines.jpg"></div>
-			<div class="f-carousel__slide"><img src="electricalengines.jpg"></div>
-			<div class="f-carousel__slide"><img src="caraccidents.jpeg"></div>
-			<div class="f-carousel__slide"><img src="running.jpeg"></div>
+			<div class="f-carousel__slide"><img src="combustionvselectric.jpg"></div>
+			<div class="f-carousel__slide"><img src="uncomfortableart.jpg"></div>
+			<div class="f-carousel__slide"><img src="running2.jpg"></div>
 		</div>
 		
 		
@@ -63,20 +60,9 @@
 			new Carousel(container, options);
 		
 		  </script>
+	</div>
 	</section>
-
-	<div class="video">
-		<video width="320" height="240" controls>
-			<source src="flick.mp4" type="video/mp4">
-		  </video>
-		</div>
-	
-		<div class="audio">
-		<audio controls>
-			<source src="BOL4 - You(=I).mp3" type="audio/mpeg">
-		  </audio>
-		</div>
-	
+	</div>
 
 	<footer>
 		
